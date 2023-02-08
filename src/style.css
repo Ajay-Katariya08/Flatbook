@@ -1,0 +1,690 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans:wght@300;400&family=Roboto&family=Roboto+Slab:wght@300&display=swap');
+*{
+    box-sizing: border-box;
+    object-fit: cover;
+}
+img{
+    box-sizing: border-box;
+}
+/* font-family: 'Lato', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Slab', serif; */
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none !important;
+}
+.spacer{
+    padding: 100px 0px;
+}
+.top_spacer{
+    padding-top: 100px;
+}
+.bgorange{
+    background-color: #f4780f;
+}
+.bggray{
+    background-color: #fcfaf3;
+}
+.bgblack{
+    background-color: #333736;
+}
+.bggray1{
+    background-color: #494c4b;
+}
+.sec_bgcolor{
+    background-color: #fbfbfb;
+}
+.sec1_bgcolor{
+    background-color: #fdf3e1;
+}
+.sec2_bgcolor{
+    background-color: #f0f0f0;
+}
+.btn-primary{
+    color: white !important;
+}
+:root{
+    --bgorange:#f4780f;
+    --lato:'Lato', sans-serif;
+    --open_sans:'Open Sans', sans-serif;
+    --roboto:'Roboto', sans-serif;
+    --roboto_slab:'Roboto Slab', serif;
+}
+/* ===================================================================================
+                                Navbar  Start
+=========================================================================================== */
+.navbar-toggler{
+    border: none !important;
+}
+.navbar_fix{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+}
+.Navbar{
+    background-color: var(--bgorange);
+    position: sticky !important;
+    top: 0px !important;
+    left: 0px;
+}
+.Navbar img{
+    height: 26px;
+}
+.navbar{
+    padding: 20px  0px !important;
+
+}
+.navbar_set{
+    font-family: var(--open_sans);
+    font-weight:bold;
+    line-height: 15px;
+}
+.navbar-nav a{
+    color: #fcd8b9 !important;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    margin: 0px 10px;
+}
+.navbar-nav a:last-child{
+    margin-right: 15px !important;
+}
+.navbar-nav a:hover{
+    color: white !important;
+}
+.btn-primary{
+    background-color:#cd6711 !important ;
+    border: none !important;;
+    border-radius: 2px !important;
+    padding: 10px 15px !important;
+    font-family: var(--open_sans);
+    font-weight: bold !important;
+    font-size: 14px !important;
+    letter-spacing: .5px;
+    color: white;
+}
+.btn-primary:hover{
+    background-color: #964905 !important;
+}
+/* ===================================================================================
+                                Navbar  End
+=========================================================================================== */
+.bg_img{
+    position: relative !important;
+    background-image: url(./images/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 850px;
+    width: 100%; 
+}
+.bg_img .bgtext{
+    background-color: #2a1202;
+    color:white;
+    padding: 10px;
+    display: inline-block;  
+    font-family: var(--lato);
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+.text_set{
+    padding-top: 280px;
+}
+.text_set p{
+    color: white;
+    font-size: 16px;
+    line-height: 28px;
+    padding: 40px 0px;
+}
+.text_set .btn-primary,
+.see_more .btn-primary,
+.r_layout .btn-primary,
+.premium .btn-primary,
+.order_box .btn-primary,
+.flatbook .btn-primary{
+    background-color: #f4780f !important;
+    padding: 16px 30px !important;
+    border-radius: 3px !important;
+    font-size: 18px !important;
+    display: inline-block;
+    transition: .3s;
+}
+.text_set .btn-primary:hover,
+.see_more .btn-primary:hover,
+.r_layout .btn-primary:hover,
+.premium .btn-primary:hover,
+.order_box .btn-primary:hover,
+.flatbook .btn-primary:hover{
+    background-color:  #f78e33 !important;
+}
+.text_set a:last-child{
+    border: 2px solid white !important;
+    background-color: transparent !important;
+    padding: 13px 28px !important;
+}
+.text_set a:last-child:hover{
+    background-color: white !important;
+    color: #f4780f !important;
+    font-weight: bold !important;
+}
+.model_img{
+    max-width: 695px;
+    width: 100%;
+    box-sizing: border-box !important;
+    height: 655px;
+    margin-top: 140px;
+}
+.model_img img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+/* ============================================================================================== */
+.get_our{
+    color: white;
+    padding: 60px 0px;
+    align-items: center;
+    font-size: 30px;
+}
+.get_our .btn-primary{
+    padding: 12px 30px !important;
+    font-family: var(--lato) !important;
+    font-weight: bold !important;
+    font-size: 18px !important;
+}
+/* ===================================================================================
+                        Start Why Learn Htm5  Section
+=========================================================================================== */
+.sec_title h1{
+    color: #f4780f ;
+    font-weight: var(--lato);
+    font-size: 40px;
+    font-weight:  500;
+    text-align: center;
+    letter-spacing: .4px;
+    padding: 10px 0px;
+}
+.sec_title{
+    overflow: hidden;
+}
+.sec_title span{
+    font-size: 26px;
+    color: #d6d6d6;
+    font-style: italic;
+   
+}
+.sec_title p >a{
+    color: var(--bgorange);
+}
+.sec_title p{
+    color: #9c9b99; 
+    font-size: 16px;
+    font-family: var(--open_sans);
+    text-align: center;
+    line-height: 28px;
+    padding: 60px 0px;
+}
+.shape1{
+    background-image: url(./images/quote_shape.png);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    width: 175px !important;
+    height: 235px;
+    transform: scale(0.55);
+    position: relative;
+    opacity: .8;
+    
+}
+.shape1 i{
+    font-size: 60px;
+    /* padding: 70px 58px; */
+    color: #999999;
+    position: absolute;
+    top: 28%;
+    left: 48%;
+    transform: translateX(-50%);
+}
+.learn_text h2{
+    margin-top: 55px;
+    font-size: 24px;
+    color: #f4780f;
+    font-family: var(--lato);
+}
+.learn_text p{
+    color: #9999a6;
+    font-family: var(--lato);
+    line-height: 28px;
+    margin: 20px 0px;
+}
+/* ===================================================================================
+                        End Why Learn Htm5  Section
+=========================================================================================== */
+/* ===================================================================================
+                        Start SAMPLES FROM EBOOK
+=========================================================================================== */
+.sec1_bgcolor p{
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.sample_bg{
+    background-image: url(./images/Screenshot-2022-05-19-at-0.37.36.png);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: relative;
+    opacity: .2;
+}
+.img1{
+    position: relative;
+    z-index: 1  ;
+}
+.tab_pad{
+    padding-top: 90px;
+}
+.sample_bg{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    position: absolute;
+}
+.tab-content{
+    padding:70px 70px 0px 70px;
+    background: #f2f1f1;
+    border-radius: 30px 30px 0px 0px;
+    margin-top: -235px;
+    position: relative;
+    box-shadow: 0 20px 20px 0 rgb(0 0 0 / 50%);
+}
+.tab-content::after{
+    content: "";
+    width: 14px;
+    height: 14px;
+    background-color: #ACACA4;
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 40px;
+    border-radius: 500px;
+    transform: translateY(-50%);
+}
+.tab-content>.active{
+    background-color:white ;
+}
+.tab-pane{
+    overflow: auto;
+    max-height: 700px; 
+    padding: 40px;
+}
+.tab-pane h4,.premium h3{
+    color: #f4780f;
+}
+.tab-pane p{
+    font-family: var(--open_sans);
+    line-height: 26px;
+    font-size: 14px;
+    color: #999a9c;
+}
+.tab-pane h6{
+    color: #857f79;
+    padding-bottom: 10px;
+}
+.tab_img{
+    padding: 20px 0px;
+}
+.tab-pane img{
+    height: auto;
+    max-width: 100%;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    padding: 10px 0px;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    background-color: #a1500a !important;
+    opacity: .8;
+}
+.nav-pills .nav-link{
+    padding: 14px;
+    border-top: 1px dashed white !important;
+}
+.nav-pills .nav-item:last-child{
+    border-bottom: 1px dashed white !important;
+
+}
+.nav-item a{
+    color: rgb(218, 214, 214);
+}
+.nav-item a:hover{
+    color: white;
+}
+/* ===================================================================================
+                        End SAMPLES FROM EBOOK
+=========================================================================================== */
+/* ===================================================================================
+                        Start see more
+=========================================================================================== */
+.see_more{
+    background-color: #514841;
+    text-align: center;
+}
+.see_more .sec_title > h1{
+    color: white;
+}
+.see_more .sec_title > p{
+    color: #979899;
+    padding: 10px 0px;
+    padding-bottom: 30px;
+}
+.see_more .btn-primary{
+background-color: #f4780f;
+}
+/* ===================================================================================
+                        End see more
+=========================================================================================== */
+/* ===================================================================================
+                        Start RESPONSIVE LAYOUTS
+=========================================================================================== */
+.img_box{
+    width: 33.33%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.img_box img{
+    width: 100%;
+}
+.img_text{
+    padding: 30px 0px;
+}
+.img_text h4,.behind_text h4{
+    color: var(--bgorange);
+    font-family: var(--lato);
+}
+.img_text p,.behind_text p,.get_icon p,.blog_text p{
+    font-family: var(--open_sans);
+    line-height: 28px;
+    color: #9c9b99;
+    padding-top: 10px;
+    font-size: 16px !important;
+}
+/* ===================================================================================
+                        End RESPONSIVE LAYOUTS
+=========================================================================================== */
+/* ==========================================================================================
+                        Start BEHIND THE SCENES
+=============================================================================================== */
+.behind_text:nth-child(1) {
+    padding-top: 100px;
+}
+.behind_text img{
+    height: 140px;
+    border-radius: 5px;
+}
+.behind .sec_title{
+    padding-bottom: 80px;
+}    
+/* ==========================================================================================
+                            End BEHIND THE SCENES
+=============================================================================================== */
+ /* ==========================================================================================
+                                    Start premium
+=============================================================================================== */
+.premium{
+    /* background-color: white; */
+    text-align: center;
+    width: 100%;
+    border-radius: 5px;
+}
+.online h1{
+    color: white;
+    font-size: 60px;
+}
+.online_text p{
+    margin: 0px;
+    padding: 10px 0px !important;
+    color: #9c9b99;
+    font-size: 18px;
+    border-bottom: 1px dashed #eaeaea;
+}
+.online_text p:last-child{
+    border: none;
+}
+.premium .btn-primary{
+    margin: 30px 0px;
+}
+.premium_box .premium:first-child{
+    margin-top: 30px ;
+}
+.sec_premium h1{
+    padding: 70px;
+}
+.lets{
+    position: relative;
+}
+.lets::after{
+    content: "";
+    position: absolute;
+    left:50%;
+    top: 100%;
+    width: 0;
+    height: 0;
+    z-index: 2;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid #e8e8e8;
+    clear: both;
+}
+ /* ==========================================================================================
+                                    End premium
+=============================================================================================== */
+ /* ==========================================================================================
+                                    Start Make your order
+=============================================================================================== */
+.bg_map{
+    background-image: url('./images/bg-map.png');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    opacity: .05;    
+}
+.img2{
+    position: relative;
+    z-index: 1  ;
+}
+.bg_map{
+    width: 100%;
+    height: 600px;
+    top: 270px;
+    left: 0;
+    z-index: -1;
+    position: absolute;
+}
+.order_box{
+    max-width: 570px;
+    margin: 0px auto;
+    margin-top: 30px;
+}
+.form-select{
+    padding: 15px !important;
+}
+.form-control{
+    margin: 20px 0px;
+    padding: 15px !important;
+}
+.form-control:last-child{
+    margin: 0px;
+    margin-top: 10px;
+    height: 200px;
+}
+.order_box .btn-primary{
+    width: 100%;
+    text-align: center;
+}
+.get_icon{
+    margin-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.get_icon i{
+    background-color: #f4780f;
+    font-size: 30px;
+    height: 80px;
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px auto;
+    border-radius: 50%;
+    color: white;
+    transition: .3s;
+}
+.get_icon i:hover{
+    transform: scale(1.1);
+}
+.get_icon h2{
+    padding-top: 20px;
+    margin-bottom: 0px;
+    font-size: 24px;
+    color: #f4780f;
+    font-family: var(--lato);
+}
+.touch{
+    width: 25%;
+}
+/* -------------------Footer------------------- */
+.footer_contant h4{
+    color: white;
+    font-family: var(--lato);
+    font-size: 20px;
+}
+.footer_contant p{
+    color:#999b9a ;
+    padding-right: 58px;
+}
+.footer_contant span{
+    color:#999b9a ;
+
+}
+.footer_contant span i{
+    padding-right: 12px;
+    padding-bottom: 30px;
+
+}
+.flatbook{
+    width: 25%;
+}
+.flatbook i{
+    color:#f4780f;
+}
+.book_link a:first-child{
+    margin-top: 0px !important;
+}
+.book_link a{
+    font-family: var(--open_sans);
+    font-size: 16px;
+    line-height: 28px;
+    color: #d1d0cf !important;
+    margin: 10px 0px !important;
+}
+.book_link a:hover{
+    color: #ffff !important;
+}
+.book_link ul li{
+    padding: 10px 0px;
+}
+.book1 ul li{
+    padding: 5px 0px;
+}
+.book_link img{
+    border-radius: 5px;
+    height: 60px;
+    width: 60px;
+}
+.latest li{
+    align-items: center;
+}
+.f_contant{
+padding-left: 20px;
+}
+.flatbook .btn-primary{
+    font-weight: 200 !important;
+    font-size: 14px !important;
+}
+.copy p{
+    color:#999b9a ;
+    margin: 0px;
+}
+.f_icon i{
+    font-size: 20px;
+    color:#999b9a ;
+    padding-left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ============Blog================= */
+.blog h1{
+padding: 180px 0px 100px 0px !important;
+color: #ffff;
+font-size: 54px;
+margin: 0px;
+}
+.blog_box{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows:repeat(2,1fr);
+    gap: 20px;
+}
+.blog_box img{
+    height: 250px;
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+.blog_img{
+    border-radius: 10px 10px 0px 0px;
+
+}
+.blog_contant{
+    padding: 40px 50px;
+}
+.blog_contant p{
+    margin: 0px;
+    font-size: 14px;
+}
+.blog_contant i{
+    font-size: 14px;
+    padding: 20px 10px 20px 0px;
+}
+.blog_contant a{
+    color:#f4780f;
+    padding-top: 30px;
+}
+.blog_contant a:hover,.blog_contant h4:hover{
+    color:#f8a358 ;
+}
+.blog_text h4{
+    font-family: var(--lato);
+    color: var(--bgorange);
+}
+.blog_area{
+    max-height: 700px;
+}
